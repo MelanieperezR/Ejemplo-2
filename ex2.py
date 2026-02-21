@@ -1,3 +1,8 @@
+# Example 3
+import streamlit as st
+import plotly.express as px
+import pandas as pd
+
 # Load Sample Data
 df = px.data.gapminder()
 
@@ -29,3 +34,4 @@ with col2:
 
 # Add the third plot in a full-width row below
 st.plotly_chart(fig3, use_container_width=True)
+
